@@ -38,12 +38,20 @@ const validarCadastro = (usuario) => {
 
 };
 
-//Exemplo solicitado no desafio
+//Exemplo adaptado do sugerido para que se retorne true (deixarei comentado para que não gere erros de console)
+// const usuario = {
+//     nome: "Maria Silva",
+//     idade: 19,
+//     email: "maria.silva@gmail.com",
+//     senha: "123ahmshjkdsak"
+// };
+
+//Exemplo sugerido para o exercício
 const usuario = {
     nome: "Maria Silva",
-    idade: 19,
+    idade: 17,
     email: "maria.silva@gmail.com",
-    senha: "123ahmshjkdsak"
+    senha: "123",
 };
 
 console.log(validarCadastro(usuario));
